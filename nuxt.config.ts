@@ -2,15 +2,12 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  nitro: {
-    preset: 'vercel'
-  },
   modules: [
     '@nuxtjs/tailwindcss',
     '@vueuse/motion/nuxt',
     '@vueuse/nuxt'
   ],
-  css: ['~/assets/css/main.css'],
+  css: ['~/app/assets/css/main.css'],
 
   app: {
     head: {
