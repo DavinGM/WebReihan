@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     '@vueuse/motion/nuxt',
     '@vueuse/nuxt'
   ],
-  css: ['~/app/assets/css/main.css'],
+  css: ['~/assets/css/main.css'],
 
   app: {
     head: {
